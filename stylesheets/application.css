@@ -135,12 +135,48 @@ nav.bread-crumbs ol.bread-crumbs__items a.bread-crumbs__link {
   width: 100%;
 }
 
+/* 全体 */
+.body{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+}
 /* メインコンテンツ */
 .main{
-
+  width: 70%;
+  background-color: slateblue;
 }
 
-/* サイドコンテンツ */
-.aside{
+/* 記事 */
+.article{
+  background-color: aqua;
+}
 
+/* サブコンテンツ */
+.aside{
+  width: 30%;
+  background-color: cadetblue;
+}
+
+/*　フッター */
+.footer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  background-color: blue;
+}
+
+.footer-nav{
+  width: 50%;
+  background-color: white;
+}
+
+.about-author{
+  width: 50%;
+  background-color: greenyellow;
+}
+
+.footer-copyright{
+  background-color: red;
 }
