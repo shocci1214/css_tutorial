@@ -113,7 +113,7 @@ nav.global-nav ul.global-nav__items a.global-nav__link {
   margin-right: 6px;
 }
 
-nav.bread-crumbs ol.bread-crumbs__items a.bread-crumbs__link {
+.bread-crumbs ol.bread-crumbs__items a.bread-crumbs__link {
   text-decoration: none;
 }
 
@@ -141,15 +141,47 @@ nav.bread-crumbs ol.bread-crumbs__items a.bread-crumbs__link {
   flex-direction: row-reverse;
   justify-content: flex-start;
 }
+
 /* メインコンテンツ */
 .main{
-  width: 70%;
+  width: 65%;
   background-color: slateblue;
+}
+
+/* ページタイトル */
+.main-header{
+  padding: 20px;
+  background-color: orange;
+}
+.main-header__title{
+  font-size: 25px;
+  font-weight: bold;
 }
 
 /* 記事 */
 .article{
+  padding: 20px;
   background-color: aqua;
+}
+
+/* 記事タイトル */
+.article__title{
+  font-size: 25px;
+  font-weight: bold;
+}
+
+/* 記事見出し */
+.article__sub-title{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* 記事本文 */
+
+
+.article__image{
+  width: 100%;
+  margin: 20px 0;
 }
 
 /* サブコンテンツ */
